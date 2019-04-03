@@ -1,0 +1,107 @@
+body {
+font-size: 14px;
+color: #ffff;
+
+
+}
+
+a {
+color: #000;
+text-decoration: none;
+list-style: none;
+}
+
+a:hover {
+color: #ffff;
+}
+
+h1 h2 h3 {
+color: #4094bf;
+}
+
+/*login*/
+
+.form {
+width: 320px;
+height: 200px;
+padding: 0px;
+margin: auto;
+margin-top: 10%;
+}
+
+.form label {
+
+color:#ffff;
+margin-top: 10%;
+margin-bottom: 10%;
+
+}
+
+input[type=text]{
+ height: 25px;
+  border-radius: 5px;
+ margin-bottom: 10px;
+
+}
+
+input[type=password]{
+ height: 25px;
+ border-radius: 5px;
+ margin-bottom: 20%;
+ margin-left: 5px;
+ color: #000;
+}
+
+input[type=submit]{
+ height: 40px;
+ width: 40%;
+ background-color: rgba(229, 35, 38, 1);
+border: 1px solid transparent;
+border-radius: 10px;
+color: #ffffff;
+padding: 8px 12px;
+cursor: pointer;
+
+}
+input[type=submit]:hover {
+    background-color: rgb(183, 32, 37);
+}
+
+.btn-beranda{
+
+height: 40px;
+width: 40%;
+background-color: rgba(229, 35, 38, 1);
+border: 1px solid transparent;
+border-radius: 10px;
+color: #ffffff;
+padding: 8px 12px;
+cursor: pointer;
+}
+.btn-beranda:hover{ 
+	 background-color: rgb(183, 32, 37);
+}
+.back{ 
+height: 40px;
+ width: 40%;
+background-color: rgba(229, 35, 38, 1);
+border: 1px solid transparent;
+border-radius: 10px;
+color: #ffffff;
+padding: 8px 12px;
+cursor: pointer;
+
+}
+
+
+.gambar {
+
+  margin-left: 10px;
+  margin-right: 10px;
+  position: relative; /* To make the navbar positions relative to this container */
+  padding: 20px;
+  background: transparent;
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  border-radius: 20px;
+  padding-top: 10px;
+}
