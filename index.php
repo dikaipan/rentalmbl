@@ -1,5 +1,5 @@
 ﻿<?php 
-include 'admin/proses.php';
+include 'admin/admin.php';
 $do = new ClassMobil();
 ?>
 <!DOCTYPE HTML>
